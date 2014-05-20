@@ -2,7 +2,7 @@ import sys
 import random
 
 
-class num_list:
+class NumList:
     my_list = []
 
     def __init__(self, size):
@@ -12,5 +12,3 @@ class num_list:
             self.my_list.append(random.randint(0, sys.maxint))
             i += 1
 
-    def getList(self):
-        return self.my_list
